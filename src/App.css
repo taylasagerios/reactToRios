@@ -1,0 +1,152 @@
+#root {
+  --base: #ebebeb;
+  --highlight: #4d4d4d;
+  --transparent: #aeaeae;
+  --outline: #000000;
+  --words: #000000;
+  background-color: var(--base);
+}
+
+.nav.nav-tabs {
+  border-bottom-color: var(--outline);
+}
+.nav-tabs .nav-item .nav-link {
+  color: var(--outline);
+  background-color: var(--base);
+  border-color: var(--outline);
+  text-decoration: none;
+}
+
+.nav-tabs .nav-item .nav-link:hover {
+  border-color: var(--transparent);
+  color: var(--transparent);
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  background-color: var(--base);
+  color: var(--highlight);
+  text-decoration: none;
+  border-color: var(--highlight);
+  border-bottom-color: var(--base);
+}
+
+.text {
+  color: var(--words)
+}
+
+.me {
+  position: absolute;
+  color: var(--words);
+  top: 5px;
+  left: 40px;
+}
+
+.list-group-item {
+  background-color: var(--base);
+  color: var(--outline);
+  border-color: var(--outline);
+}
+
+.list-group-item:hover {
+  color: var(--highlight);
+  background-color: var(--base);
+  border-color: var(--highlight);
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+.form-control {
+  background-color: var(--transparent);
+  color: var(--highlight);
+  border-color: var(--outline);
+}
+
+.form-control:focus {
+  background-color: var(--transparent);
+  color: var(--highlight)
+}
+.btn {
+  margin-top: 10px;
+  background-color: var(--transparent);
+  color: var(--highlight);
+  border-color: var(--outline);
+}
+
+.btn:hover {
+  background-color: var(--transparent);
+  color: var(--outline);
+  border-color: var(--highlight);
+}
+
+.error-text {
+  color: red;
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.img-wrapper:hover {
+  box-shadow: 5px 5px 5px var(--outline);
+  transition-duration: 500ms;
+}
+
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper:hover > img {
+  opacity: 80%;
+  transition-duration: 500ms;
+}
+
+.img-wrapper > .repo {
+  position: absolute;
+  max-width: 64px;
+  max-height: 64px;
+  opacity: 0;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.img-wrapper:hover > .repo {
+  opacity: 80;
+  transition-duration: 500ms;
+}
+
+.img-wrapper > .deployed {
+  position: absolute;
+  font-size: large;
+  color: var(--outline);
+  top: 50%;
+  left: 50%;
+  opacity: 0%;
+  transform: translate(-50%, -50%);
+  background-color: var(--transparent);
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.img-wrapper:hover > .deployed {
+  opacity: 80%;
+  transition-duration: 500ms;
+}
+
+.profile {
+  height: 400px;
+  width: 400px;
+}
+
+#about-me {
+  background-color: var(--transparent);
+  color: var(--word);
+}
