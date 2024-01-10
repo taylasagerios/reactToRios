@@ -16,17 +16,11 @@ export default function Projects() {
 
         <Project title={"MySequel Adventure"} image="project2.jpg" repo="https://github.com/taylasagerios/my-sequel-adventure" deploy="https://my-sequel-adventure-a9247b63bc9a.herokuapp.com/" />
 
-    <p>My Sequel Adventure is a game application where users can first create a character. Then they can use their character to fight against to win battles and grow their strength points and add up their wins. Users can battle until they beat the highest level.
-
-          Some langueges used were MySQL, JavaScript, and CSS.
-
-          This game was created to let a User have fun. Sometimes you just need a little entertainment. My Sequel Adventure was created by three Web Development students. The creators are Alonso, Fiqre, and Tayla.</p>
+    <p>My Sequel Adventure is a game application where users can first create a character. Then they can use their character to fight against to win battles and grow their strength points and add up their wins. Users can battle until they beat the highest level. This game was created to let a User have fun. Sometimes you just need a little entertainment.</p>
 
         <Project title={"White Chapel Mysteries"} image="project3.png" repo="https://github.com/Armand57araujo/whiteChapelMysteries" deploy="http://whitechapelmysteries-fcef7ed93e83.herokuapp.com/" />
 
-        <p>What is White Chapel Mysteries? White Chapel Mysteries is a visual novel game based off of the Jack the Ripper stories. Enjoy the story and discover the secret of the White Chapel Mysteries alongside detective Melville Macnaghten....
-
-          White Chapel Mysteries is a game created by Alonso Ampuero, Jack Seymour, Armand(aka Almond) Araujo, Iab Sills and Tayla Rios. It was created by a group of creative minds who like to game. This game was made for a final project to show off our talents and thingswe have learned throguht out this course. The tools used for this project for client side are: Html, Css, Javascript, React / React-bootstrap, Howler.js, Typed.js. For server side we used: MongoDB, GraphQL, Json Web Token, Vite, Apollo-client. We also got to show that we can figure out new things. For this game we learned to use Type.js and Howler. One fun feature of our game is the note pad and inventory function. We wanted this game to be interactive besides the storytelling part. While we are far from finished and hope to add much more we hope you enjoy...</p>
+        <p>What is White Chapel Mysteries? White Chapel Mysteries is a visual novel game based off of the Jack the Ripper stories. Enjoy the story and discover the secret of the White Chapel Mysteries alongside detective Melville Macnaghten....</p>
       </div>
     </>
   )
