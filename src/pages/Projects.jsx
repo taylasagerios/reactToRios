@@ -8,7 +8,7 @@ export default function Projects(){
     </h2>
     </div>
     
-    <div className="row mt-4">
+    <div className="row mt-2">
         <Project title={"Scenery Finder"} image="project1.jpg" repo="https://github.com/eviehoang/scenery-finder" deploy="https://eviehoang.github.io/scenery-finder/"/> 
         
         <Project title={"MySequel Adventure"} image="project2.jpg" repo="https://github.com/taylasagerios/my-sequel-adventure" deploy="https://my-sequel-adventure-a9247b63bc9a.herokuapp.com/"/>
