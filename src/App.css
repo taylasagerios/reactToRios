@@ -32,6 +32,8 @@
 
 .text {
   color: var(--words)
+  font-family: "Lucida Console", monospace;
+  font-weight: bold;
 }
 
 .me {
