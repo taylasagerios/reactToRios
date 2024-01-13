@@ -76,11 +76,7 @@ function Contact() {
         </div>
       )}
       </div>
-      <div className='row text text-center mt-4'>
-        <p>
-          Email me at the email link below
-        </p>
-       
+      <div className='row text text-center mt-4'> 
       </div>
     </div>
     </>
