@@ -80,9 +80,7 @@ function Contact() {
         <p>
           Email me at the email link below
         </p>
-        <p>||<br />
-        \ || / <br />
-        v</p>
+       
       </div>
     </div>
     </>
